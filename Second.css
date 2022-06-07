@@ -1,0 +1,71 @@
+body{
+    font-family: 'Tai Heritage Pro', serif;
+    font-family: 'Tiro Gurmukhi', serif;
+    margin: auto;
+}
+section{
+    height: 700px;
+    
+    
+}
+.top-area{
+    background-image: url("Photo/top-banner.png");
+    background-repeat: no-repeat;
+}
+h1{
+    font-size: 40px;
+}
+.half-width{
+    width: 40%;
+    float: left;
+    margin: 50px;
+    
+}
+.half-width img{
+    width: 100%;
+}
+.name-highlight{
+    color: orange;
+}
+.link-button{
+    text-decoration: none;
+    border-radius: 5px;
+    color: white;
+    background-image: linear-gradient(lightsalmon, tomato);
+    font-weight: 700;
+    padding: 10px;
+
+}
+.dearm-area{
+    background-image: url("Photo/dream-bg.png");
+    background-repeat: no-repeat;
+    background-position: right;
+    padding-bottom: 30px;
+}
+.single-experiance{
+    border-radius: 10px;
+    box-shadow: 10px 10px 40px gray;
+    height: 37%;
+    padding-left: 15px;
+}
+#box-border1{
+    border-left: 5px solid;
+    border-image: linear-gradient(tomato, lightsalmon);
+    border-image-slice: 1;
+}
+#box-border2{
+    border-left: 5px solid;
+    border-image: linear-gradient(blue, lightblue);
+    border-image-slice: 1;
+}
+.experiance-area{
+    background-image: url("Photo/exp-bg.png");
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: 5%;
+    padding-top: 20px;
+
+}
+.footer{
+    text-align: center;
+}
