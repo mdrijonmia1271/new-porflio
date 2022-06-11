@@ -1,0 +1,111 @@
+body{
+   margin: auto;
+}
+section{
+    height: 500px;
+}
+.top-area{
+    height: 155px;
+    position: sticky;
+    top: 0;
+}
+ul{
+    list-style-type: none;
+    padding: 10px;
+    padding-right: 50px;
+    overflow: hidden;
+    background-color: #f3f3f3;
+}
+li{
+    float: right;
+}
+li a{
+    color: #666;
+    padding: 41px;
+    text-decoration: none;
+    font-size: 20px;
+ 
+}
+a:hover{
+    background-color:#ddd;
+    color:black ;
+}
+input{
+    margin-left: 30px;
+    border: 2px solid #e7ede7;
+    border-radius: 5px;
+}
+.work-area{
+    margin-left: 133px;
+}
+h1{
+    text-align: center;
+    font-size: 37px;
+}
+.work-image{
+    float: left;
+    width: 25%;
+    margin: 20px;
+    border: 1px solid #ddd;
+    border-radius: 9px;
+    padding-left: 10px;
+    
+}
+img{
+    width: 275px;
+    height: 200px;
+    margin: 20px 10px;
+    margin-bottom: 0;
+    border: 1px solid white;
+    border-radius: 9px;
+}
+.hero-area{
+    height: 130px;
+    width: 530px;
+    margin-left: 450px;
+    background-image: linear-gradient(to left, #ad5a5a, tomato);
+    border: 1px solid gray;
+    border-radius: 9px;
+    margin-top: 50px;
+
+    
+}
+.insite-box{
+    text-align: center;
+    padding: 9px;
+
+}
+.fa {
+    padding: 15px;
+    font-size: 30px;
+    width: 18px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    border: 1px solid white;
+    border-radius: 5px;
+}
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+}
+.fa-twitter {
+    background: #55ACEE;
+    color: white;
+}
+.fa-linkedin {
+    background: #007bb5;
+    color: white;
+}
+.fa-instagram {
+    background: #125688;
+    color: white;
+}
+.link-area{
+    text-align: center;
+}
+.footer
+{
+    text-align: center;
+    padding-bottom: 50px;
+}
